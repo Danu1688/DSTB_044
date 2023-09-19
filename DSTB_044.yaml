@@ -1,4 +1,17 @@
 proxies:
+- name: Gatot3_DO_2
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: c62c8da8-70a2-4e47-9f15-89f3809c2db4
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsSvr-Live_1
   type: trojan
   server: circles.asia
