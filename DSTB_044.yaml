@@ -1,5 +1,70 @@
 proxies:
-- name: Vilanus2Dodi_DO_2
+- name: DodiVilanNusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 75d19520-614e-494a-8679-e0dd84fe7e2d
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DodiVilanNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 75d19520-614e-494a-8679-e0dd84fe7e2d
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DodiVilanNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 75d19520-614e-494a-8679-e0dd84fe7e2d
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DodiVilanNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 75d19520-614e-494a-8679-e0dd84fe7e2d
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: DodiVilanNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 75d19520-614e-494a-8679-e0dd84fe7e2d
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Vilan2DodiDo2_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -12,7 +77,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: Vilanus2Dodi_DO_1
+- name: Vilan2DodiDo1_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -25,20 +90,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: DodiVilanusNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: d8cbbfc2-5e0f-4fa6-8dd7-83508e38e5e6
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsDo3-Live_H1
   type: trojan
   server: circles.asia
   port: 443
@@ -51,29 +103,3 @@ proxies:
     path: /trojan-ws
     headers:
       Host: sgdo3.dstb.cloud
-- name: DanuNusa_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 55349efa-6b40-4225-9158-946a3e3e07eb
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: DanuRmWeb_LiveRmWeb_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f249583f-004c-4ef0-a2b1-e16e2e286d57
-  udp: true
-  sni: vpnrdfs1ov.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpnrdfs1ov.scpotato.me
